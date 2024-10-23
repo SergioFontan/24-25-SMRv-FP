@@ -1,39 +1,55 @@
 # ¿Qué es una expresión en JavaScript?
-Una expresión es cualquier fragmento de código que puede ser evaluado para producir un valor. Este valor puede ser un número, una cadena de texto, un booleano (true o false), o incluso algo más complejo como un objeto. En otras palabras, una expresión es algo que JavaScript puede evaluar para obtener un resultado.
+Una expresión es cualquier fragmento de código que puede ser evaluado para producir un valor. 
 
-Ejemplos básicos:
-- 5 + 3 es una expresión que produce el valor 8.
-- "Hola" + " Mundo" es una expresión que produce el valor "Hola Mundo".
-- 10 > 5 es una expresión que produce el valor true.
+Este valor puede ser un número, una cadena de texto, un booleano (true o false), o incluso algo más complejo como un objeto. 
+
+En otras palabras, una expresión es algo que JavaScript puede evaluar para obtener un resultado.
 
 ## Tipos de expresiones
-Hay diferentes tipos de expresiones en JavaScript, algunas de las más comunes son:
+Hay diferentes tipos de expresiones en JavaScript, algunas de las más comunes son: aritmeticas, de concatenacion, de comparacion y logicas.
 
-Expresiones aritméticas: Realizan operaciones matemáticas y devuelven un valor numérico.
+### **Tabla de Operadores Aritméticos**
 
-Ejemplos:
-- 3 + 2 (resultado: 5)
-- 10 / 2 (resultado: 5)
-- 7 * 3 (resultado: 21)
+| Operador | Descripción                      | Ejemplo        | Resultado       |
+|----------|---------------------------------|----------------|-----------------|
+| `+`      | Suma de dos números o concatenación de cadenas. | `5 + 3`         | `8`              |
+| `-`      | Resta de dos números.            | `10 - 4`        | `6`              |
+| `*`      | Multiplicación de dos números.   | `7 * 2`         | `14`             |
+| `/`      | División de dos números.         | `20 / 5`        | `4`              |
+| `%`      | Módulo (resto de la división).   | `10 % 3`        | `1`              |
 
-### Expresiones de concatenación: Combinan cadenas de texto para formar una nueva cadena.
 
-Ejemplo:
-- "Hola" + " Mundo" (resultado: "Hola Mundo")
+### **Tabla concatenación: Suma vs. Concatenación**
 
-### Expresiones de comparación: Evalúan si dos valores son iguales, diferentes, mayores, menores, etc., y devuelven un valor booleano (true o false).
+| Operación                          | Descripción                                                                  | Ejemplo                    | Resultado         |
+|-----------------------------------|------------------------------------------------------------------------------|----------------------------|-------------------|
+| **Suma (numérica)**               | Se realiza cuando ambos operandos son números.                               | `5 + 10`                   | `15`              |
+| **Concatenación (textual)**       | Se realiza cuando al menos un operando es una cadena de texto.               | `"Hola" + " Mundo"`        | `"Hola Mundo"`    |
+| **Número + Cadena**               | El número se convierte en cadena y se concatenan.                            | `5 + " días"`              | `"5 días"`        |
+| **Cadena + Número**               | La cadena permanece como cadena y el número se convierte a cadena para concatenar. | `"El resultado es " + 10`  | `"El resultado es 10"` |
 
-Ejemplos:
-- 5 > 3 (resultado: true)
-- 8 == 10 (resultado: false)
-- "casa" !== "auto" (resultado: true)
 
-### Expresiones lógicas: Utilizan operadores lógicos (&& para "y", || para "o", ! para "no") para combinar comparaciones y evaluar condiciones más complejas.
+### **Tabla de Operadores de Comparación**
 
-Ejemplos:
-- (5 > 3) && (10 < 20) (resultado: true)
-- (10 === 5) || (8 > 3) (resultado: true)
-- !(5 < 2) (resultado: true)
+| Operador | Descripción                                               | Ejemplo           | Resultado       |
+|----------|-----------------------------------------------------------|-------------------|-----------------|
+| `==`     | Igualdad (compara solo el valor, no el tipo).             | `5 == "5"`        | `true`           |
+| `===`    | Estrictamente igual (compara el valor y el tipo).         | `5 === "5"`       | `false`          |
+| `!=`     | Diferente (compara solo el valor, no el tipo).            | `5 != "5"`        | `false`          |
+| `!==`    | Estrictamente diferente (compara el valor y el tipo).     | `5 !== "5"`       | `true`           |
+| `>`      | Mayor que.                                                | `10 > 5`          | `true`           |
+| `<`      | Menor que.                                                | `5 < 10`          | `true`           |
+| `>=`     | Mayor o igual que.                                        | `10 >= 10`        | `true`           |
+| `<=`     | Menor o igual que.                                        | `5 <= 10`         | `true`           |
+
+### **Tabla de Operadores Lógicos**
+
+| Operador | Descripción                       | Ejemplo                       | Resultado     |
+|----------|----------------------------------|-------------------------------|---------------|
+| `&&`     | AND lógico (devuelve `true` si ambas expresiones son verdaderas). | `(5 > 3) && (8 > 6)`           | `true`         |
+| `||`     | OR lógico (devuelve `true` si al menos una de las expresiones es verdadera). | `(5 > 10) || (8 > 6)`          | `true`         |
+| `!`      | NOT lógico (invierte el valor lógico). | `!(5 > 3)`                    | `false`        |
+
 
 ## ¿Para qué se usan las expresiones?
 Las expresiones son la base de la lógica en la programación. Permiten que el código tome decisiones y realice cálculos. Son esenciales para:
@@ -43,14 +59,3 @@ Las expresiones son la base de la lógica en la programación. Permiten que el c
 - Combinar y evaluar cadenas de texto.
 - Comparar valores y actuar en consecuencia.
 
-## Operadores comunes en expresiones
-Para construir expresiones en JavaScript, se utilizan operadores. Algunos operadores comunes son:
-
-- Operadores aritméticos: +, -, *, /, %
-    Ejemplo: 10 % 2 devuelve 0 (ya que 10 es divisible entre 2)
-
-- Operadores de comparación: ==, !=, >, <, >=, <=
-    Ejemplo: 8 >= 5 devuelve true
-
-- Operadores lógicos: &&, ||, !
-    Ejemplo: (5 < 10) && (10 > 3) devuelve true
