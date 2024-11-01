@@ -60,10 +60,10 @@ Crea un programa que pida al usuario una cantidad de años y muestre en la conso
 Escribe un programa que pida al usuario el precio de tres productos y el porcentaje de impuestos. Calcula y muestra el precio total después de aplicar los impuestos a la suma de los tres productos.
 
 
-## Ejercicio 9: Salario semanal
+## Ejercicio 9: Salario mensual
 
 **Enunciado:**
-Crea un programa que pida al usuario su salario diario y la cantidad de días trabajados en una semana. Luego, muestra en la consola el salario semanal.
+Crea un programa que pida al usuario su salario diario y la cantidad de días trabajados en una semana. Luego, muestra en la consola el salario mensual teniendo en cuenta que no hay festivos en dicho mes.
 
 
 ## Ejercicio 10: Total de litros de agua consumidos en un año
@@ -71,4 +71,7 @@ Crea un programa que pida al usuario su salario diario y la cantidad de días tr
 **Enunciado:**
 Escribe un programa que pida al usuario la cantidad de litros de agua que consume diariamente. Luego, muestra en la consola cuántos litros consume en un año (365 días).
 
+## Ejercicio 11: Comparación de tres precios
 
+**Enunciado:**
+Crea un programa que pida al usuario tres precios y muestra en la consola true si el segundo precio es menor que el primero y el primero es menor que el tercero.

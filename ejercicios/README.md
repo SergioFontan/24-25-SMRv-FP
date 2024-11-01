@@ -44,11 +44,11 @@ Hay diferentes tipos de expresiones en JavaScript, algunas de las más comunes s
 
 ### **Tabla de Operadores Lógicos**
 
-| Operador | Descripción                       | Ejemplo                       | Resultado     |
-|----------|----------------------------------|-------------------------------|---------------|
+| Operador | Descripción                                                   | Ejemplo                       | Resultado     |
+|----------|----------------------------------------------------------------|-------------------------------|---------------|
 | `&&`     | AND lógico (devuelve `true` si ambas expresiones son verdaderas). | `(5 > 3) && (8 > 6)`           | `true`         |
-| `||`     | OR lógico (devuelve `true` si al menos una de las expresiones es verdadera). | `(5 > 10) || (8 > 6)`          | `true`         |
-| `!`      | NOT lógico (invierte el valor lógico). | `!(5 > 3)`                    | `false`        |
+| `\|\|`   | OR lógico (devuelve `true` si al menos una de las expresiones es verdadera). | `(5 > 10) \|\| (8 > 6)`          | `true`         |
+| `!`      | NOT lógico (invierte el valor lógico).                        | `!(5 > 3)`                    | `false`        |
 
 
 ## ¿Para qué se usan las expresiones?
