@@ -1,7 +1,7 @@
 # Ejercicios lectura de código.
 El objetivo es interpretar las líneas de código y comprender la salida del console.log como resultado.
 
-## Condición con AND y Comparación de Edad
+## Ejercicio 1
 
 ```javascript
 let edad = 20;
@@ -9,7 +9,7 @@ let tieneCarnet = true;
 console.log(edad >= 18 && tieneCarnet); 
 ```
 
-## Condición con OR y Comparación de Puntaje
+## Ejercicio 2
 
 ```javascript
 let puntaje1 = 85;
@@ -17,7 +17,7 @@ let puntaje2 = 75;
 console.log(puntaje1 >= 80 || puntaje2 >= 80); 
 ```
 
-## Condición Compuesta con AND y console.log
+## Ejercicio 3
 
 ```javascript
 let temperatura = 25;
@@ -25,7 +25,7 @@ let esSoleado = true;
 console.log(temperatura > 20 && esSoleado); 
 ```
 
-## Uso de OR en dos Comparaciones de Valores
+## Ejercicio 4
 
 ```javascript
 let tiempoRestante = 5;
@@ -33,7 +33,7 @@ let cargadorDisponible = false;
 console.log(tiempoRestante > 10 || cargadorDisponible); 
 ```
 
-## Comparación Múltiple con AND
+## Ejercicio 5
 
 ```javascript
 let velocidad = 60;
@@ -42,7 +42,7 @@ let seguroActivo = true;
 console.log(velocidad <= limite && seguroActivo); 
 ```
 
-## Condición con OR y Comparación Numérica
+## Ejercicio 6
 
 ```javascript
 let edad = 16;
@@ -50,7 +50,7 @@ let tienePermisoPadres = true;
 console.log(edad >= 18 || tienePermisoPadres); 
 ```
 
-## Evaluación de Condición con AND
+## Ejercicio 7
 
 ```javascript
 let notaFinal = 90;
@@ -58,7 +58,7 @@ let asistencia = 95;
 console.log(notaFinal >= 85 && asistencia >= 90); 
 ```
 
-## Condición de AND con Valores Booleanos
+## Ejercicio 8
 
 ```javascript
 let esEstudiante = true;
@@ -66,7 +66,7 @@ let tieneDescuento = true;
 console.log(esEstudiante && tieneDescuento); 
 ```
 
-## Condición OR y AND Combinadas
+## Ejercicio 9
 
 ```javascript
 let numero1 = 7;
@@ -74,7 +74,7 @@ let numero2 = 5;
 console.log((numero1 > 6 && numero2 < 6) || numero2 === 5); 
 ```
 
-## Comparación Múltiple con AND y OR
+## Ejercicio 10
 
 ```javascript
 let temperatura = 30;
@@ -83,7 +83,7 @@ let viento = true;
 console.log((temperatura > 25 && humedad < 60) || viento); 
 ```
 
-## Condición con AND y OR Compuestas
+## Ejercicio 11
 
 ```javascript
 let edad = 18;
@@ -92,7 +92,7 @@ let permisoEspecial = true;
 console.log((edad >= 18 && licencia) || permisoEspecial); 
 ```
 
-## Comparación con Condiciones Compuestas y OR
+## Ejercicio 12
 
 ```javascript
 let nivelAgua = 45;
@@ -100,7 +100,7 @@ let lluvia = false;
 console.log(nivelAgua < 50 || lluvia); 
 ```
 
-## Condición Compleja con AND y OR
+## Ejercicio 13
 
 ```javascript
 let puntosExamen = 88;
@@ -108,7 +108,7 @@ let esRegular = true;
 console.log((puntosExamen >= 80 && esRegular) || puntosExamen === 100); 
 ```
 
-## Condiciones Anidadas con AND y OR
+## Ejercicio 14
 
 ```javascript
 let diaSemana = "sábado";
@@ -116,7 +116,7 @@ let esFestivo = true;
 console.log(diaSemana === "sábado" || diaSemana === "domingo" && esFestivo); 
 ```
 
-## Condición Compleja con Varios AND y OR
+## Ejercicio 15
 
 ```javascript
 let altura = 180;

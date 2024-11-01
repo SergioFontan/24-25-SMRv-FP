@@ -1,7 +1,7 @@
 # Ejercicios lectura de código.
 El objetivo es interpretar las líneas de código y comprender la salida del console.log como resultado.
 
-## Cálculo de Área y Verificación de Límite
+## Ejercicio 1
 
 ```javascript
 let base = 8;
@@ -13,7 +13,7 @@ console.log("Área del rectángulo: " + area);
 console.log("¿Área supera el límite? " + superaLimite);
 ```
 
-## Verificación de Disponibilidad y Rango de Precio
+## Ejercicio 2
 
 ```javascript
 let precio = 120;
@@ -23,7 +23,7 @@ console.log("Precio del producto: " + precio);
 console.log("¿Disponible y a buen precio? " + precioRazonable);
 ```
 
-## Comparación de Dos Números con Resultado
+## Ejercicio 3
 
 ```javascript
 let num1 = 45;
@@ -34,7 +34,7 @@ console.log("¿num1 es mayor que num2? " + mayor);
 console.log("¿num1 es menor que num2? " + menor);
 ```
 
-## Calcular Costo Total con Cargo por Servicio
+## Ejercicio 4
 
 ```javascript
 let costoBase = 200;
@@ -45,7 +45,7 @@ console.log("Costo con cargo: " + totalConCargo);
 console.log("¿Costo supera los 200? " + supera200);
 ```
 
-## Calcular Promedio de Tres Notas y Evaluar
+## Ejercicio 5
 
 ```javascript
 let nota1 = 70;
@@ -57,7 +57,7 @@ console.log("Promedio de notas: " + promedio);
 console.log("¿Promedio igual o superior a 75? " + supera75);
 ```
 
-## Verificación de Horario de Funcionamiento
+## Ejercicio 6
 
 ```javascript
 let horaApertura = 9;
@@ -68,7 +68,7 @@ console.log("Hora actual: " + horaActual);
 console.log("¿Establecimiento abierto? " + abierto);
 ```
 
-## Calcular Edad a partir de Año de Nacimiento
+## Ejercicio 7
 
 ```javascript
 let añoActual = 2023;
@@ -79,7 +79,7 @@ console.log("Edad del usuario: " + edad);
 console.log("¿Es mayor de edad?" + esMayorEdad);
 ```
 
-## Evaluación de Velocidad y Distancia Recorrida
+## Ejercicio 8
 
 ```javascript
 let velocidad = 60; // en km/h
@@ -90,7 +90,7 @@ console.log("Distancia recorrida: " + distancia + " km");
 console.log("¿Distancia mayor o igual a 50 km? " + supera50km);
 ```
 
-## Verificación de Puntos Acumulados y Recompensa
+## Ejercicio 9
 
 ```javascript
 let puntosAcumulados = 150;
@@ -101,18 +101,18 @@ console.log("Puntos acumulados: " + puntosAcumulados);
 console.log(mensajeRecompensa);
 ```
 
-## Comparación de Altura para Entrada en Atracción
+## Ejercicio 10
 
 ```javascript
 let alturaMinima = 120;
 let alturaUsuario = 130;
 let accesoPermitido = alturaUsuario >= alturaMinima;
 let mensajeAcceso = "¿Altura suficiente para entrar? " + accesoPermitido;
-console.log("Altura del usuario:", alturaUsuario);
+console.log("Altura del usuario: " + alturaUsuario);
 console.log(mensajeAcceso);
 ```
 
-## Cálculo de Ganancia con Inversión y Tasa de Interés
+## Ejercicio 11
 
 ```javascript
 let inversion = 500;
@@ -120,5 +120,5 @@ let tasaInteres = 0.05;
 let ganancia = inversion * tasaInteres;
 let totalFinal = inversion + ganancia;
 console.log("Ganancia obtenida: " + ganancia);
-console.log("Monto total después de interés:" + totalFinal);
+console.log("Monto total después de interés: " + totalFinal);
 ```
