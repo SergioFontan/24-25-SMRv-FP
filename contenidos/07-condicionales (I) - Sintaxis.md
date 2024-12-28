@@ -1,5 +1,5 @@
 
-# Condicionales en JavaScript
+# Condicionales en JavaScript (I)
 
 ## **¿Qué son los condicionales?**
 
@@ -151,7 +151,7 @@ switch (dia) {
    - Ejemplo: Si aprueba, felicítalo; si no, ofrécele apoyo.
 
 3. Usa `if-else if-else` cuando tienes múltiples condiciones encadenadas.
-   - Ejemplo: Clasificar notas en Excelente, Aprobado o Reprobado.
+   - Ejemplo: Clasificar notas en Excelente, Aprobado o Suspenso.
 
 4. Usa `switch` cuando tienes varias opciones fijas basadas en un solo valor.
    - Ejemplo: ¿Qué día de la semana es hoy?

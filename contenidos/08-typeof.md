@@ -55,15 +55,12 @@ console.log(typeof "Hola");      // "string"
 console.log(typeof true);        // "boolean"
 console.log(typeof undefined);   // "undefined"
 console.log(typeof null);        // "object" (peculiaridad histórica)
-console.log(typeof Symbol());    // "symbol"
-console.log(typeof 10n);         // "bigint" (BigInt)
 ```
 
 ### **Con objetos y funciones:**
 ```javascript
 console.log(typeof {});          // "object"
-console.log(typeof []);          // "object" (los arrays son objetos)
-console.log(typeof new Date());  // "object"
+console.log(typeof []);          // "object" (los arrays son internamente objetos)
 console.log(typeof function(){}); // "function"
 ```
 
@@ -162,8 +159,8 @@ function esObjeto(valor) {
 
 3. **Verifica funciones antes de ejecutarlas:**
    ```javascript
-   if (typeof callback === "function") {
-       callback();
+   if (typeof cosa === "function") {
+       
    }
    ```
 
