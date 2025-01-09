@@ -1,5 +1,5 @@
 
-# Ejercicios: Identificar la Estructura Correcta
+# Hoja 25. Identificar la Estructura Correcta
 
 **Instrucciones:** Lee cada enunciado y decide cuál de las siguientes estructuras es la más adecuada para resolverlo: `if`, `if-else`, `if-else-if` o `switch`.
 

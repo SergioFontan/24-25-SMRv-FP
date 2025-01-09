@@ -1,8 +1,10 @@
 
-# Ejercicios: Identificar cuándo usar Arrays en el Código
+# Ejercicios 27. Identificar cuándo usar Arrays en el Código
 
 **Instrucciones:**  
-Lee cada fragmento de código y analiza si el uso de variables individuales es correcto o si sería más adecuado agruparlas en un array. Responde cuáles variables deberían agruparse y cuáles no corrigiendo el código en caso de ser necesario.
+Lee cada fragmento de código y analiza si el uso de variables individuales es correcto o si sería más adecuado agruparlas en un array. 
+
+Responde cuáles variables deberían agruparse y cuáles no corrigiendo el código en caso de ser necesario.
 
 ---
 

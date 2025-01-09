@@ -2,7 +2,9 @@
 # Ejercicios Avanzados: Métodos de Arrays
 
 **Instrucciones:**  
-Lee el enunciado y escribe el código para resolver el problema. Usa los métodos de arrays `push()`, `pop()`, `unshift()` y `shift()` para manipular los elementos en los contextos indicados.
+Lee el enunciado y escribe el código para resolver el problema. 
+
+Usa los métodos de arrays `push()`, `pop()`, `unshift()` y `shift()` para manipular los elementos en los contextos indicados.
 
 ---
 

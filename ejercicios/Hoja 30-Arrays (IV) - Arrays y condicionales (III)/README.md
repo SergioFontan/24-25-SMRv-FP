@@ -1,8 +1,10 @@
 
-# Ejercicios: Arrays y Condicionales
+# Ejercicios 30. Arrays y Condicionales
 
 **Instrucciones:**  
-Lee el enunciado y escribe el código para resolver el problema. Usa únicamente arrays, condicionales (`if`, `if-else`, etc.), y las herramientas vistas durante el curso.
+Lee el enunciado y escribe el código para resolver el problema. 
+
+Usa únicamente arrays, condicionales (`if`, `if-else`, etc.), y las herramientas vistas durante el curso.
 
 ---
 

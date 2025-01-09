@@ -1,5 +1,5 @@
 
-# Ejercicios: Uso Combinado de Condicionales
+# Ejercicios 26. Uso Combinado de Condicionales
 
 **Instrucciones:** Lee cada enunciado y analiza cómo combinar diferentes estructuras condicionales (`if`, `if-else`, `if-else-if`, `switch`) para resolver el problema.
 
