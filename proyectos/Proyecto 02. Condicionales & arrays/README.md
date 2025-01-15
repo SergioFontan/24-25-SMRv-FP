@@ -34,3 +34,16 @@ El programa debe permitir al usuario realizar las siguientes acciones:
    - Si las validaciones no se cumplen, mostrar mensaje de error.
 
 4. Mostrar el estado del inventario antes y después de cada operación.
+
+---
+
+# **Criterios de Evaluación**
+
+- **Se han utilizado de forma correcta las variables y constantes (10%)**
+- **Se ha hecho un uso correcto de los condicionales adecuados (25%)**
+- **Se han realizado de forma correcta las validaciones de los datos introducidos por el usuario (15%)**
+- **Se han implementado correctamente los mensajes de éxito y error al usuario (10%)**
+- **Se han gestionado correctamente las estructuras de datos así como su contenido (30%)**
+- **Se ha hecho uso correctamente de los comentarios de código en partes relevantes del proyecto (10%)**
+
+---
