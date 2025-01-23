@@ -43,6 +43,8 @@ alert(`Lista actualizada de invitados:
     3 - ${invitados[3]}`);
 
 
+
+
 // Ejercicio 02
 /**
  * En este ejercicio no se me solicita modificar puntuacion anterior
