@@ -1,4 +1,4 @@
-## Ejercicios con `for` y `while` con arrays
+## Ejercicios con `for` con arrays
 
 ### **Ejercicio 1: Imprimir todos los elementos de un array**  
 Dado un array de números, imprimir cada elemento en una línea.

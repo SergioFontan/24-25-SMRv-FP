@@ -1,6 +1,6 @@
-## Ejercicios con `for` y `while`
+## Ejercicios con `for` 
 
-A continuación, se presentan 10 ejercicios que solo utilizan bucles (`for` o `while`), sin funciones, arrays ni objetos.
+A continuación, se presentan 10 ejercicios que solo utilizan bucles `for`:
 
 ### **Ejercicio 1: Contar del 1 al 10**  
 Muestra en pantalla los números del 1 al 10, uno por línea.
